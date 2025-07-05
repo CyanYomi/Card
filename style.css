@@ -85,3 +85,7 @@ h2 {
   background-color: #c0ebd7;
   transform: scale(1.05);
 }
+
+#press-btn {
+  touch-action: manipulation;
+}

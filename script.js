@@ -129,3 +129,6 @@ btn.addEventListener('click', () => {
     fireworks.push(new Firework(x, y));
   }
 });
+
+// 防御双击放大
+btn.addEventListener('dblclick', (e) => e.preventDefault());
